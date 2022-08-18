@@ -8,9 +8,6 @@ Desenvolvi esse projeto no módulo de Back-end enquanto estudante da Trybe, com 
 
 * Providencie as queries necessárias para criar tabelas normalizadas;
 
-* Providencie as queries necessárias para popular as tabelas de acordo com os dados abaixo:
-![Tabela não normalizada "Spotify Clone"](./images/non-normalized-tables.png)
-
 ---
 
 ## Desafio 2
@@ -22,12 +19,6 @@ Crie uma `QUERY` que exiba três colunas:
 2. A segunda coluna deve exibir a quantidade total de artistas e deverá ter o alias "**artistas**".
 
 3. A terceira coluna deve exibir a quantidade de álbuns e deverá ter o alias "**albuns**".
-
-✨ Dica: Considerando que a tabela está normalizada, você pode usar as chaves estrangeiras para juntar as tabelas, ou usar _sub-queries_ de forma que seja possível extrair o resultado
-
-Sua `QUERY` deve retornar a seguinte informação:
-
-![Estatísticas musicais](./images/estatisticas_musicais.png)
 
 ---
 
@@ -43,10 +34,6 @@ Crie uma `QUERY` que deverá ter apenas três colunas:
 
 Os resultados devem estar agrupados pelo nome da pessoa usuária e ordenados em ordem alfabética.
 
-Sua `QUERY` deve retornar a seguinte informação:
-
-![Histórico de reprodução das pessoas usuárias](./images/HistoricoReproducaoUsuarios.png)
-
 ---
 
 ## Desafio 4
@@ -59,10 +46,6 @@ Crie uma `QUERY` que deve mostrar as pessoas usuárias que estavam ativas **a pa
 
 O resultado deve estar ordenado em ordem alfabética.
 
-Sua `QUERY` deve retornar a seguinte informação:
-
-![Condição da pessoa usuária](./images/condicao_usuario.png)
-
 ---
 
 ## Desafio 5
@@ -74,8 +57,6 @@ Estamos fazendo um estudo das músicas mais tocadas e precisamos saber quais sã
 2. A segunda coluna deve possuir o alias "**reproducoes**" e exibir a quantidade de pessoas que já escutaram a canção em questão.
 
 Seu resultado deve estar ordenado em ordem decrescente, baseando-se no número de reproduções. Em caso de empate, ordene os resultados pelo nome da canção em ordem alfabética. Queremos apenas o top 2 de músicas mais tocadas.
-
-Sua `QUERY` deve retornar a seguinte informação:
 
 ---
 
@@ -93,10 +74,6 @@ Tendo como base o valor dos planos e o plano que cada pessoa usuária cadastrada
 
 Para cada um desses dados, por se tratarem de valores monetários, deve-se arredondar o faturamento usando apenas duas casas decimais.
 
-Sua `QUERY` deve retornar a seguinte informação:
-
-![Faturamento atual](./images/faturamento_atual.png)
-
 ---
 
 ## Desafio 7
@@ -111,10 +88,6 @@ Mostre uma relação de todos os álbuns produzidos por cada pessoa artista, com
 
 Seus resultados devem estar ordenados de forma decrescente, baseando-se no número de pessoas seguidoras. Em caso de empate no número de pessoas, ordene os resultados pelo nome da pessoa artista em ordem alfabética e caso há artistas com o mesmo nome, ordene os resultados pelo nome do álbum alfabeticamente.
 
-Sua `QUERY` deve retornar a seguinte informação:
-
-![PerfilArtistas](./images/perfil_artistas.png)
-
 ---
 
 ## Desafio 8
@@ -128,10 +101,6 @@ Para isto crie uma `QUERY` que o retorno deve exibir as seguintes colunas:
 
 Os resultados devem ser ordenados pelo nome do álbum em ordem alfabética.
 
-Sua `QUERY` deve retornar a seguinte informação:
-
-![Álbuns da pessoa artista](./images/AlbunsDoArtista.png)
-
 ---
 
 ## Desafio 9
@@ -139,10 +108,6 @@ Sua `QUERY` deve retornar a seguinte informação:
 Crie uma `QUERY` que exibe a quantidade de músicas que estão presentes atualmente no histórico de reprodução de uma pessoa usuária específica. Para este caso queremos saber quantas músicas estão no histórico da usuária `"Barbara Liskov"` e a consulta deve retornar a seguinte coluna:
 
 1. O valor da quantidade, com o alias "**quantidade_musicas_no_historico**".
-
-Sua `QUERY` deve retornar a seguinte informação:
-
-![Quantidade de músicas no histórico](./images/quantidade_musicas_no_historico.png)
 
 ---
 
@@ -155,10 +120,6 @@ Crie uma `QUERY` que exiba o nome e a quantidade de vezes que cada canção foi 
 * A segunda coluna deve exibir a quantidade de pessoas que já escutaram aquela canção, com o alias "**reproducoes**";
 
 * Seus resultados devem estar agrupados pelo nome da canção e ordenados em ordem alfabética.
-
-Sua `QUERY` deve retornar a seguinte informação:
-
-![Canções premium](./images/cancoes_premium.png)
 
 ---
 
@@ -184,7 +145,3 @@ Crie uma `QUERY` que altere o nome de algumas músicas e as ordene em ordem alfa
 - Trocar a palavra **"SOUL"** no final do nome de uma música por **"CODE"**
 
 - Trocar a palavra **"Pais"** no final do nome de uma música por **"Pull Requests"**
-
-Sua `QUERY` retornar a seguinte informação:
-
-![Nome das músicas trocados](./images/replace_name.png)
