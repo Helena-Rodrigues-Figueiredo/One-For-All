@@ -2,6 +2,15 @@
 
 Desenvolvi esse projeto no módulo de Back-end enquanto estudante da Trybe, com o objetivo de consolidar o aprendizado em `Modelagem de um Banco de Dados` e em `Normalização`.
 
+---
+
+## Habilidades Utilizadas
+
+* Funções utilizadas no SQL
+* JOINs
+
+---
+
 ## Desafio 1
 
 * Crie um banco com o nome de **`SpotifyClone`**.
